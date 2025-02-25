@@ -9,8 +9,8 @@ import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import rehypeMermaid from 'rehype-mermaid'
 import remarkPlantUML from '@akebifiky/remark-simple-plantuml'
-import { remarkReadingTime } from './remark-plugins/remark-reading-time.mjs'
-import { remarkDiagram } from './remark-plugins/remark-diagram.mjs'
+import { remarkReadingTime } from './src/common/remark-reading-time.mjs'
+import { remarkDiagram } from './src/common/remark-diagram.mjs'
 
 // https://astro.build/config
 export default defineConfig({
