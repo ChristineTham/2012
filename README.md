@@ -1,4 +1,4 @@
-# year-template
+# 2012
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: Typescript](https://img.shields.io/badge/language-TypeScript-blue.svg?style=flat-square)](https://www.typescriptlang.org)
@@ -6,11 +6,7 @@
 [![CSS: TailwindCSS](https://img.shields.io/badge/css-TailwindCSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white?style=flat-square)](https://tailwindcss.com)
 ![Deploy Status](https://github.com/ChristineTham/christinetham.github.io/actions/workflows/deploy.yml/badge.svg)
 
-Template for storing a year of blog posts in my personal blog/web site [christham.net](https://christham.net) which is on [christinetham.github.io](https://github.com/ChristineTham/christinetham.github.io).
-
-Each blog year is stored as a separate repository on Github, with the repository name in the format `xxxx` where `xxxx` is the year of the blog posts. The repository is based on this template. Blog posts are written in Markdown and MDX and stored in the `src/blog` directory with the following filename format `yyyy-mm-dd-title.md` where `yyyy` is the year, `mm` is the month and `dd` is the day of the post.
-
-Each blog year is hosted on [Github Pages](https://pages.github.com) and deployed via Github Action workflow. A json file called `blog.json` is generated and stored in the `dist` directory. This file is copied into the main Github repository for the personal web site and used by the main blog site to generate index of all blog articles for searching, categories and tags.
+Blog posts for 2012
 
 ## 🧞 Commands
 
